@@ -1,22 +1,85 @@
-:root {
-    --primary-color:#e6fa00;
-    --second-color: #b1750c;
-    --color-destak: #d4ff00f9;
-    --color-dark: rgb(31, 31, 31);
-    --color-light: #d2d2d2 ;
+* {
+    font-family: 'Rubik Vinyl', cursive;
 }
 
-body {
-    background-color: var(--color-light);
+.primary-color {
+    color: #eaff32;
 }
 
-header {
-    background-color: var(--second-color);
-    height: 10vh;
+.second-color {
+    color: #969696;
+}
 
+.color-destak {
+    color: #d4ff00f9;
+}
+
+.bg-color-dark {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.color-light {
+    color: #d2d2d2;
+}
+
+
+/* NAVBAR */
+
+#navbar {
+    border-bottom: 2px solid rgb(231, 252, 0);
+}
+
+#navbar:hover {
+    color: rgb(255, 255, 255);
+}
+
+#navbar a {
+    font-family: sans-serif;
+}
+
+#navbar a:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+#navbar a.active {
+    border-bottom: 1px solid yellow;
+}
+
+.bi-list { 
+    color: #eaff32;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand img {
+    margin-left: 0.5em;
+    width: 45px;
+}
+
+.navbar-brand span {
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik Vinyl', cursive;    
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+.navbar-brand span:hover {
+    color: #eaff32;
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
     width: 100%;
 }
 
-.logo {
-    padding: 2.2vh 4vh;
+#navbar-items .nav-item {
+    margin: 0 1em;
+}
+
+@media (min-width: 768px) {
+    
 }
