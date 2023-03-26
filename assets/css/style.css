@@ -1,0 +1,22 @@
+:root {
+    --primary-color:#e6fa00;
+    --second-color: #b1750c;
+    --color-destak: #d4ff00f9;
+    --color-dark: rgb(31, 31, 31);
+    --color-light: #d2d2d2 ;
+}
+
+body {
+    background-color: var(--color-light);
+}
+
+header {
+    background-color: var(--second-color);
+    height: 10vh;
+
+    width: 100%;
+}
+
+.logo {
+    padding: 2.2vh 4vh;
+}
