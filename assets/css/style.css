@@ -15,7 +15,7 @@
 }
 
 .bg-color-dark {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(44, 44, 44, 0.9);
 }
 
 .color-light {
@@ -26,7 +26,7 @@
 /* NAVBAR */
 
 #navbar {
-    border-bottom: 2px solid rgb(231, 252, 0);
+    border-bottom: 1px solid rgb(231, 252, 0);
 }
 
 #navbar:hover {
@@ -38,16 +38,12 @@
 }
 
 #navbar a:hover {
-    color: white;*
+    color: white;
     transition: 0.5s;
 }
 
 #navbar a.active {
     border-bottom: 1px solid yellow;
-}
-
-.bi-list { 
-    color: #eaff32;
 }
 
 .navbar-brand {
@@ -56,18 +52,13 @@
 
 .navbar-brand img {
     margin-left: 0.5em;
-    width: 45px;
+    width: 40px;
 }
 
 .navbar-brand span {
-    color: rgb(255, 255, 255);
     font-family: 'Rubik Vinyl', cursive;    
     font-size: 1.5em;
     margin-left: 0.5em;
-}
-
-.navbar-brand span:hover {
-    color: #eaff32;
 }
 
 #navbar-items .navbar-nav {
@@ -104,8 +95,9 @@
 }
 
 #slider .btn {
-    padding: 0.3em 0.8em;
+    font-size: 1em;
     margin-top: 1em;
+    padding: 0.3em 0.8em;
 }
 
 .carousel-control-prev,
@@ -113,7 +105,6 @@
     background-color: transparent;
     border: none;
 }
-
 .carousel-control-prev i,
 .carousel-control-next i {
     color: rgba(255, 255, 45, 0.622);
@@ -128,6 +119,8 @@
 .carousel-indicators .active {
     background-color: #000;
 }
+
+/* MINI BANNER*/
 
 
 @media (min-width: 768px) {

@@ -22,18 +22,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
-
   <link rel="stylesheet" href="/assets/css/style.css">
 
   <title>Badburger</title>
 </head>
 
 <body>
-
-
+  <!--nav-->
   <nav class="navbar navbar-expand-lg fixed-top bg-color-dark" id="navbar">
     <div class="container py-3">
-      <a href="#" class="navbar-brand">
+      <a href="#" class="navbar-brand color-light ">
         <img src="/assets/img/burger2.svg" alt="logo Badburger">
         <span>Badburger</span>
       </a>
@@ -66,51 +64,78 @@
         <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-item active">
-        <img src="/assets/img/banner1.jpg" alt="burger 1" class="d-block w-100" />
-        <div class="carousel-caption">
-          <h5>Nossos Ingredientes</h5>
-          <a href="#" class="btn btn-dark">Ver Origem</a>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/assets/img/banner1.jpg" alt="burger 1" class="d-block w-100" />
+          <div class="carousel-caption">
+            <h5>Nossos Ingredientes</h5>
+            <a href="#" class="btn btn-dark">Ver Origem</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/banner2.jpg" alt="burger 2" class="d-block w-100" />
+          <div class="carousel-caption">
+            <h5>Burgers Artesanais</h5>
+            <a href="#" class="btn btn-dark">Ver Opções</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/banner3.jpg" alt="burger 3" class="d-block w-100" />
+          <div class="carousel-caption">
+            <h5>Nosso Diferencial</h5>
+            <a href="#" class="btn btn-dark">Ver Diferencial</a>
+          </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="/assets/img/banner2.jpg" alt="burger 2" class="d-block w-100" />
-        <div class="carousel-caption">
-          <h5>Burgers Artesanais</h5>
-          <a href="#" class="btn btn-dark">Ver Opções</a>
+      <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+        <i class="bi bi-chevron-compact-left"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+        <i class="bi bi-chevron-compact-right"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- mini-banner -->
+    <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="card text-center">
+            <i class="bi bi-box primary-color"></i>
+            <div class="card-body">
+              <h5 class="card-title primary-color">Você escolhe os ingredientes</h5>
+              <p class="card-text secondary-color">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+              <a href="#" class="btn btn-dark">Saber Mais</a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <img src="/assets/img/banner3.jpg" alt="burger 3" class="d-block w-100" />
-        <div class="carousel-caption">
-          <h5>Nosso Diferencial</h5>
-          <a href="#" class="btn btn-dark">Ver Diferencial</a>
+        <div class="col-12 col-md-4">
+          <div class="card text-center">
+            <i class="bi bi-box primary-color"></i>
+            <div class="card-body">
+              <h5 class="card-title primary-color">Carnes de Qualidade</h5>
+              <p class="card-text secondary-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <a href="" class="btn btn-dark">Saber Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card text-center">
+            <i class="bi bi-box primary-color"></i>
+            <div class="card-body">
+              <h5 class="card-title primary-color">Molhos Especiais</h5>
+              <p class="card-text secondary-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <a href="" class="btn btn-dark">Saber Mais</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <button 
-    class="carousel-control-prev" 
-    type="button" 
-    data-bs-target="#slider" 
-    data-bs-slide="prev">
-      <i class="bi bi-chevron-compact-left"></i>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button 
-    class="carousel-control-next" 
-    type="button" 
-    data-bs-target="#slider" 
-    data-bs-slide="next">
-      <i class="bi bi-chevron-compact-right"></i>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
 
-
   <main>
-    <!--<section class="container">
-      <img src="/assets/img/sanduiche.svg" alt="">
-    </section>!-->
+
   </main>
 
   <footer>
