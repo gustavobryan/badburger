@@ -8,6 +8,6 @@
 [x] Criação do index
 [x] Criação CSS menu
 [x] Criação Slide home
-[] Criação CSS home
+[x] Criação CSS home
 [] Continuação HTML
 [] +++
