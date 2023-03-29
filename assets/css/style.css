@@ -19,7 +19,7 @@
 }
 
 .color-light {
-    color: #d2d2d2;
+    color: #8b8b8b;
 }
 
 
@@ -141,8 +141,10 @@ body {
     border: 2px solid white;
     border-radius: 100%;
     cursor: pointer;
+    height: 370px;
     margin-bottom: 1em;
     padding: 2em 0.3em;
+    width: 370px;
 }
 
 #mini-banners .card:hover {
@@ -187,18 +189,19 @@ body {
     text-shadow: 1px 1px black;
 }
 
-.title::before{
-border-top: 4px solid white ;
-bottom: 2em;
-content: "";
-position: absolute;
-width: 75px;
+.title::before {
+    border-top: 4px solid white;
+    bottom: 2em;
+    content: "";
+    position: absolute;
+    width: 75px;
 }
 
 .subtitle {
     color: rgba(255, 255, 255, 0.628);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
+    text-align: center;
 }
 
 .dropdown .btn {
@@ -207,7 +210,7 @@ width: 75px;
     color: #000;
     font-weight: bold;
     justify-content: space-between;
-    margin-left: 1.9em;
+    margin-left: 1em;
 }
 
 .dropdown-item {
@@ -225,7 +228,7 @@ width: 75px;
     position: relative;
 }
 
-#cart-images .col-md-4:hover > .banner-content {
+#cart-images .col-md-4:hover>.banner-content {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -245,8 +248,10 @@ width: 75px;
     width: 350px;
 }
 
-.banner-content h3, p {
+.banner-content h3,
+p {
     font-family: monospace;
+    text-align: center;
 }
 
 /* pedido */
@@ -260,7 +265,7 @@ width: 75px;
 
 .subtitle a .bi-whatsapp {
     color: #eaff32;
-    
+
 }
 
 #pedido .form-label {
@@ -277,19 +282,18 @@ width: 75px;
 
 .options-items {
     height: 12.5em;
-    padding: 2em;
-}   
+    padding: 1.4em;
+}
 
-    .form-select {
+.form-select {
     color: #8b9004;
     font-family: monospace;
     font-weight: bold;
     height: 2.3em;
-    margin-left: 2.4em;
-    margin-bottom: 0.8em;
-    padding: .5em;
+    margin-right: 7em;
+    margin-bottom: 0.5em;
     width: 10em;
-    }
+}
 
 .form-select option {
     color: #282922a2;
@@ -304,7 +308,8 @@ width: 75px;
     padding: .2em;
 }
 
-.form-check-label, a {
+.form-check-label,
+a {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -315,6 +320,8 @@ width: 75px;
     color: #3b3b3b;
     font-family: monospace;
     font-weight: bold;
+    margin-left: 2em;
+    width: 8em;
 }
 
 #pedido .btn:hover {
@@ -322,7 +329,68 @@ width: 75px;
     color: #000;
 }
 
+/* footer / contato */
 
+footer {
+    background-color: #eaff32;
+    margin-top: 2em;
+    padding: 3em;
+}
+
+.title-contato::before {
+    border-top: 4px solid rgb(0, 0, 0);
+    bottom: 2em;
+    content: "";
+    position: absolute;
+    width: 75px;
+}
+
+.title-contato {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.9em;
+    font-weight: 600;
+    margin-bottom: 0.4em;
+    position: relative;
+    text-shadow: .2px .5px rgb(255, 255, 255);
+}
+
+.subtitle-contato {
+    font-size: 1.5em;
+
+}
+
+.card-contato {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#social-icons {
+    display: flex;
+    font-size: 2em;
+    margin: auto;
+}
+
+#social-icons i {
+    padding: .2em;
+}
+
+.info-contato {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info-contato span a {
+    color: #3b3b3b;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+#contato p {
+    font-size: 1.3em;
+    margin-top: .5em;
+}
 
 @media (min-width: 768px) {
     #slider .carousel-caption {
@@ -350,4 +418,103 @@ width: 75px;
         margin-top: -6em;
     }
 
+    /* contato */
+
+    .title {
+        font-size: 2.4em;
+    }
+
+    .title::before {
+        bottom: 1.5em;
+    }
+
+    .dropdown .btn {
+        align-content: center;
+        background-color: #f4f4f4;
+        color: #000;
+        font-weight: bold;
+        margin-left: 10em;
+        margin-right: 6em;
+    }
+
+    .dropdown-item {
+        color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    #cart-images .banner-content {
+        opacity: 0;
+    }
+
+    .img-items {
+        border-radius: 100%;
+        height: 360px;
+        width: 350px;
+    }
+
+    .banner-content h3 {
+        color: #000000;
+        font-size: 1.55em;
+        font-weight: bold;
+        padding: 0 2em;
+        text-shadow: 1px 1px 1px rgb(229, 232, 35);
+    }
+
+    .banner-content p {
+        color: #ffffff;
+        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+    }
+
+    .banner-content h3,
+    p {
+        font-family: monospace;
+        text-align: center;
+    }
+
+    /*footer*/
+
+    footer {
+        background-color: #eaff32;
+        margin-top: 2em;
+    }
+
+    .card-contato {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #social-icons {
+        display: flex;
+        font-size: 2em;
+        margin-left: 15em;        
+        width: auto;
+    }
+
+    #social-icons i {
+        cursor: pointer;
+        padding: .2em;
+    }
+
+    #social-icons i:hover {
+        color: white;
+    }
+
+    .info-contato {
+        display: flex;
+        width: 60%;
+    }
+
+    .info-contato span a {
+        color: #3b3b3b;
+        font-size: 1.4em;
+        font-weight: 600;
+        margin-right: 10em;
+    }
+
+    #contato p {
+        font-size: 1.3em;
+        margin-top: .5em;
+    }
 }
