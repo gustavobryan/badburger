@@ -241,7 +241,7 @@ width: 75px;
 
 .img-items {
     border-radius: 100%;
-    height: 400px;
+    height: 360px;
     width: 350px;
 }
 
@@ -250,6 +250,79 @@ width: 75px;
 }
 
 /* pedido */
+
+#pedido {
+    background-color: #00000096;
+    margin: auto;
+    padding: 2em 2em .7em 2em;
+    width: 80%;
+}
+
+.subtitle a .bi-whatsapp {
+    color: #eaff32;
+    
+}
+
+#pedido .form-label {
+    color: white;
+    font-family: monospace;
+    margin-bottom: -4px;
+    margin-top: 0.8em;
+}
+
+#pedido input {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.options-items {
+    height: 12.5em;
+    padding: 2em;
+}   
+
+    .form-select {
+    color: #8b9004;
+    font-family: monospace;
+    font-weight: bold;
+    height: 2.3em;
+    margin-left: 2.4em;
+    margin-bottom: 0.8em;
+    padding: .5em;
+    width: 10em;
+    }
+
+.form-select option {
+    color: #282922a2;
+    font-family: monospace;
+    font-weight: bold;
+    height: 2.3em;
+    padding: .5em;
+}
+
+
+.form-check {
+    padding: .2em;
+}
+
+.form-check-label, a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pedido .btn {
+    background-color: #eaff32;
+    border-radius: 1px;
+    color: #3b3b3b;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#pedido .btn:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
+
 
 @media (min-width: 768px) {
     #slider .carousel-caption {

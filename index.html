@@ -248,70 +248,56 @@
         <div id="cardapio">
           <div class="col-12">
             <h2 class="title primary-color">Pedido</h2>
-            <p class="subtitle secondary-color">Faça seu pedido aqui ou pelo nosso Whats <a href="tel:+"><i class="bi bi-whatsapp"></i></a></p>
+            <p class="subtitle secondary-color">Faça seu pedido aqui ou pelo nosso Whats <a href="tel:+"><i
+                  class="bi bi-whatsapp"></i></a></p>
           </div>
-      <form class="pedido">
-        <div class="col-md-4">
-          <label for="validationDefault01" class="form-label">Nome</label>
-          <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
-        </div>
-        <div class="col-md-6">
-          <label for="validationDefault03" class="form-label">Bairro</label>
-          <input type="text" class="form-control" id="validationDefault03" required>
-        </div>
-        <div class="col-md-3">
-          <label for="validationDefault05" class="form-label">Telefone</label>
-          <input type="number" class="form-control" id="validationDefault05" required>
-        </div>
-        <div class="form-select">
-          <select class="form-select form-select-lg mb-4" aria-label=".form-select-lg example">
-            <option selected>Batata</option>
-            <option value="1">Batata Frita</option>
-            <option value="2">Batata Infantil</option>
-            <option value="3">Batata Rústica</option>
-          </select>
-          <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-            <option selected>Burger</option>
-            <option value="1">Burger Salad</option>
-            <option value="2">Combo Bacon Burger++</option>
-            <option value="3">Combo Artesanal+batata</option>
-          </select>
-          <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-            <option selected>Bebidas</option>
-            <option value="1">Água com gás e limão</option>
-            <option value="2">Coca-Cola</option>
-            <option value="3">Suco de Laranja</option>
-          </select>
-        </div>
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-            <label class="form-check-label" for="invalidCheck2">
-              Termo de <a href="#"> Compromisso</a>
-            </label>
-          </div>
-        </div>
-        <div class="col-12">
-          <button class="btn btn-primary" type="submit">Fazer Pedido</button>
-        </div>
-        <div class="modal" tabindex="-1">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title">Pedido realizado com sucesso!</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <p>Fique atento ao celular, avisaremos assim que sair para entrega.</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">fechar</button>
-                <button type="button" class="btn btn-primary">Concluir</button>
+          <form class="pedido">
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="validationDefault01" placeholder="Mark" required>
+            </div>
+            <div class="col-md-6">
+              <label for="validationDefault03" class="form-label">Bairro</label>
+              <input type="text" class="form-control" id="validationDefault03" placeholder="Santa Maria" required>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault05" class="form-label">Telefone</label>
+              <input type="tel" class="form-control" id="validationDefault05" placeholder=" 9 9999 - 9999" required>
+            </div>
+            <div class="options-items">
+              <div class="form-select">
+                <select class="form-select" >
+                  <option selected>Batata</option>
+                  <option value="1">Batata Frita</option>
+                  <option value="2">Batata Infantil</option>
+                  <option value="3">Batata Rústica</option>
+                </select>
+                <select class="form-select" aria-label=".form-select-sm example">
+                  <option selected>Burger</option>
+                  <option value="1">Burger Salad</option>
+                  <option value="2">Combo Bacon Burger++</option>
+                  <option value="3">Combo Artesanal+batata</option>
+                </select>
+                <select class="form-select " aria-label=".form-select-sm example">
+                  <option selected>Bebidas</option>
+                  <option value="1">Água com gás e limão</option>
+                  <option value="2">Coca-Cola</option>
+                  <option value="3">Suco de Laranja</option>
+                </select>
               </div>
             </div>
-          </div>
-        </div>
-      </form>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  Termo de <a href="#"> Compromisso</a>
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Fazer Pedido</button>
+            </div>
+          </form>
     </section>
   </main>
   <footer>
@@ -319,13 +305,14 @@
       <div class="card-contato">
         <div class="col-12">
           <h2 class="title">Contato</h2>
-          <p class="subtitle secondary-color">Em casos de dúvida entre em contato com a gente <a href="tel:+"><i class="bi bi-whatsapp"></i></a></p>
-        </div>   
+          <p class="subtitle secondary-color">Em casos de dúvida entre em contato com a gente <a href="tel:+"><i
+                class="bi bi-whatsapp"></i></a></p>
+        </div>
         <div class="col-2">
-        <span><a href="mailto:badburger@email.com">badburger@email.com</a></span>  
-        <span><a href="tel:+0000000000">(55) 9 0000-0000</a></span>
-      </div> 
-      <p><i class="bi bi-c-circle"></i>Copyright 2023</p>
+          <span><a href="mailto:badburger@email.com">badburger@email.com</a></span>
+          <span><a href="tel:+0000000000">(55) 9 0000-0000</a></span>
+        </div>
+        <p><i class="bi bi-c-circle"></i>Copyright 2023</p>
       </div>
     </section>
   </footer>
