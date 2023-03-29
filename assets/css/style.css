@@ -249,6 +249,8 @@ width: 75px;
     font-family: monospace;
 }
 
+/* pedido */
+
 @media (min-width: 768px) {
     #slider .carousel-caption {
         bottom: 15em;
